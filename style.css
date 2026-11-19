@@ -105,3 +105,97 @@ a:focus-visible {
 a {
     color: #1d4ed8;
 }
+
+.logout-link {
+    display: block;
+    text-align: center;
+    background-color: #dc2626;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.logout-link:hover {
+    background-color: #b91c1c;
+}
+
+/* Transaction form dropdowns */
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 16px;
+}
+
+select:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Make transaction dropdowns match other inputs */
+
+.container select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    background-color: white;
+    color: #1f2937;
+    font-size: 16px;
+}
+
+.container select:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Transaction History Table */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.transaction-table th,
+.transaction-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #2563eb;
+    color: white;
+}
+
+.transaction-table tr:hover {
+    background-color: #f1f5f9;
+}
+
+.income-amount {
+    color: #166534;
+    font-weight: bold;
+}
+
+.expense-amount {
+    color: #b91c1c;
+    font-weight: bold;
+}
